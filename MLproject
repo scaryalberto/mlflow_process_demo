@@ -1,0 +1,28 @@
+name: multistep
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      param_1: {type: string, default: "../genoa/dataset/markers_quartieri.csv"}
+      param_2: {type: string, default: "../genoa/processing/markers_quartieri"}
+    command: "python scripts/main.py --param_1 {param_1} --param_2 {param_2}"
+
+
+  data_prep:
+    parameters:
+      param_1: {type: string, default: ""}
+      param_2: {type: string, default: ""}
+    command: "python scripts/data_prep.py --param_1 {param_1} --param_2 {param_2}"
+
+  model_training:
+    parameters:
+      kernel: {type: string, default: 'linear'}
+      C: {type: int, default: 5}
+      model_path: {type: string, default: "../genoa/processing/svr.pkl"}
+      val_dataset_path: {type: string, default: "../genoa/processing/"}
+    command: "python scripts/model_training.py --kernel {kernel} --model_path {model_path} --val_dataset_path {val_dataset_path}"
+
+  evaluation:
+    command: "python scripts/evaluation.py"

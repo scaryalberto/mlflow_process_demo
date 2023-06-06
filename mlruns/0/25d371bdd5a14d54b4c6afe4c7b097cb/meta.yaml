@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alsg/PycharmProjects/mlflow_mio_per_github/mlruns/0/25d371bdd5a14d54b4c6afe4c7b097cb/artifacts
+end_time: 1686060121646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25d371bdd5a14d54b4c6afe4c7b097cb
+run_name: big-snipe-724
+run_uuid: 25d371bdd5a14d54b4c6afe4c7b097cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686060082270
+status: 3
+tags: []
+user_id: alsg

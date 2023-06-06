@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/alsg/PycharmProjects/mlflow_mio_per_github/mlruns/0/3ed000926fc1432a8a4e993d7b9d5023/artifacts
+end_time: 1686060121927
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ed000926fc1432a8a4e993d7b9d5023
+run_name: illustrious-hawk-160
+run_uuid: 3ed000926fc1432a8a4e993d7b9d5023
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686060043368
+status: 3
+tags: []
+user_id: alsg
